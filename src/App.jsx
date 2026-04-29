@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <div className="brand">Forest Beacon Church</div>
+        <div className="brand">Forest Beacon</div>
         <nav aria-label="Main navigation">
           <a href="#home">Home</a>
           <a href="#news">News</a>
