@@ -1,0 +1,112 @@
+.site-shell {
+  min-height: 100vh;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e8e3db;
+  background: rgba(255, 251, 246, 0.95);
+  backdrop-filter: blur(4px);
+}
+
+.brand {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #234235;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.topbar a {
+  color: #234235;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+}
+
+.landing {
+  padding: 5.5rem 1.5rem 4rem;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  color: #456a5b;
+  margin-bottom: 0.75rem;
+}
+
+.landing h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  line-height: 1.15;
+  color: #183126;
+}
+
+.intro {
+  margin: 1.25rem auto 0;
+  color: #4b5f56;
+  font-size: 1.05rem;
+  max-width: 620px;
+}
+
+.cta-row {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.05rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: #2d624b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #2d624b;
+  border-color: #2d624b;
+}
+
+.panel {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  border-top: 1px solid #e8e3db;
+}
+
+.panel h2 {
+  margin: 0 0 0.5rem;
+  color: #183126;
+}
+
+.panel p {
+  margin: 0;
+  color: #4b5f56;
+}
