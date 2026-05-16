@@ -1,4 +1,5 @@
 import './App.css'
+import forestWalk from './assets/images/forest walk.JPG'
 
 function App() {
   return (
@@ -12,22 +13,26 @@ function App() {
         </nav>
       </header>
 
-      <main id="home" className="landing">
-        <p className="eyebrow">Welcome</p>
-        <h1>Simple church community, rooted in faith and village life.</h1>
-        <p className="intro">
-          This is the starter version of your site. We can now build out each page
-          and section together as you add content.
-        </p>
-        <div className="cta-row">
-          <a className="btn btn-primary" href="#news">
-            View News
-          </a>
-          <a className="btn btn-secondary" href="#contact">
-            Get in Touch
-          </a>
+      <section id="home" className="hero" aria-label="Welcome">
+        <img
+          className="hero__image"
+          src={forestWalk}
+          alt=""
+          fetchPriority="high"
+        />
+        <div className="hero__overlay" aria-hidden="true" />
+        <div className="hero__content">
+          <div className="hero__headline">
+            <h1 className="hero__title">Welcome to Forest Beacon</h1>
+            <p className="hero__church">
+              The home of Ruardean Hill Baptist Church
+            </p>
+          </div>
+          <p className="hero__mission">
+            We are a simple church community, rooted in faith and village life
+          </p>
         </div>
-      </main>
+      </section>
 
       <section id="news" className="panel">
         <h2>News</h2>
