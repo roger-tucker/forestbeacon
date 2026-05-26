@@ -147,7 +147,6 @@
 }
 
 .coming-up__image-wrap {
-  container-type: size;
   flex: 1 1 0;
   min-height: 0;
   width: 100%;
@@ -166,15 +165,6 @@
   border-radius: 4px;
   object-fit: contain;
   object-position: center;
-}
-
-@container (orientation: portrait) {
-  .coming-up__image {
-    width: min(100cqw, 100cqh);
-    height: min(100cqw, 100cqh);
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-  }
 }
 
 .home-content {
