@@ -49,9 +49,13 @@
 
 .hero__image {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  left: 50%;
   height: 100%;
+  width: auto;
+  min-width: 100%;
+  max-width: none;
+  transform: translateX(-50%);
   object-fit: cover;
   object-position: center;
 }
@@ -120,6 +124,109 @@
   line-height: 1.55;
   color: #fff;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+}
+
+.coming-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100svh;
+  max-height: 100svh;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  max-width: 760px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.coming-up__heading {
+  flex-shrink: 0;
+  margin: 0 0 0.75rem;
+}
+
+.coming-up__image-wrap {
+  container-type: size;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming-up__image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@container (orientation: portrait) {
+  .coming-up__image {
+    width: min(100cqw, 100cqh);
+    height: min(100cqw, 100cqh);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
+
+.home-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+  text-align: center;
+}
+
+.section-heading {
+  margin: 2.5rem 0 1rem;
+  font-family: 'Kranky', cursive;
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: #183126;
+}
+
+.home-content > .section-heading:first-child {
+  margin-top: 0;
+}
+
+.home-content__text {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #4b5f56;
+}
+
+.home-content__text a {
+  color: #2d6a4f;
+  font-weight: 600;
+}
+
+.home-content__text a:hover {
+  text-decoration: underline;
+}
+
+.content-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  border-radius: 4px;
+}
+
+@media (orientation: portrait) {
+  .content-image {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 .panel {
