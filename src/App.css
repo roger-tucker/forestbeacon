@@ -219,14 +219,6 @@
   }
 }
 
-.values {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 3rem;
-  text-align: center;
-  border-top: 1px solid #e8e3db;
-}
-
 .section-subheading {
   margin: 0 0 1.25rem;
   font-family: 'Kranky', cursive;
@@ -250,19 +242,18 @@
   align-items: start;
   gap: 1.25rem;
   text-align: left;
-  padding: 1.25rem 0;
-  border-top: 1px solid rgba(232, 227, 219, 0.9);
+  margin-bottom: 2rem;
 }
 
-.value-row:first-of-type {
-  border-top: 0;
+.value-row:last-child {
+  margin-bottom: 0;
 }
 
 .value-row__icon {
   width: 96px;
   height: 96px;
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 

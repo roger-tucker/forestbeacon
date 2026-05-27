@@ -109,9 +109,7 @@ function App() {
           evening on the second Thursday of the month. If you&apos;d like to
           join us please contact us for details.
         </p>
-      </section>
 
-      <section className="values" aria-label="Values">
         <h2 className="section-heading">Values</h2>
         <p className="section-subheading">
           With God. As family. For the Forest and beyond.
@@ -132,9 +130,7 @@ function App() {
           <p className="value-row__detail">
             <em>
               We make space to pray, worship, and encounter God in a way
-              that’s real.
-              <br />
-              A place to pause, breathe, and be renewed—no pressure, no
+              that’s real. A place to pause, breathe, and be renewed—no pressure, no
               pretending.
             </em>
           </p>
@@ -166,9 +162,7 @@ function App() {
           <p className="value-row__detail">
             <em>
               We’re learning to live it out in real life—at home, at work,
-              wherever we are.
-              <br />
-              Bringing hope, kindness, and something different into the world
+              wherever we are. Bringing hope, kindness, and something different into the world
               around us.
             </em>
           </p>
