@@ -4,6 +4,9 @@ import chayah from './assets/images/Chayah.jpeg'
 import forestChurchBeacon from './assets/images/Forest-church-beacon.png'
 import toddlerGroup from './assets/images/toddler1ac.JPG'
 import growingTogether from './assets/images/sundayz.JPG'
+import fireValue from './assets/images/fire.jpg'
+import tableValue from './assets/images/table.jpg'
+import pathValue from './assets/images/path.png'
 
 function App() {
   return (
@@ -106,6 +109,70 @@ function App() {
           evening on the second Thursday of the month. If you&apos;d like to
           join us please contact us for details.
         </p>
+      </section>
+
+      <section className="values" aria-label="Values">
+        <h2 className="section-heading">Values</h2>
+        <p className="section-subheading">
+          With God. As family. For the Forest and beyond.
+        </p>
+        <p className="values__intro">
+          We have three values which shape the way we do life in our small
+          community:
+        </p>
+
+        <div className="value-row">
+          <img className="value-row__icon" src={fireValue} alt="Fire" />
+          <div className="value-row__body">
+            <h3 className="value-row__title">With God (Fire)</h3>
+            <p className="value-row__lead">
+              Faith isn’t just talked about here—it’s experienced.
+            </p>
+          </div>
+          <p className="value-row__detail">
+            <em>
+              We make space to pray, worship, and encounter God in a way
+              that’s real.
+              <br />
+              A place to pause, breathe, and be renewed—no pressure, no
+              pretending.
+            </em>
+          </p>
+        </div>
+
+        <div className="value-row">
+          <img className="value-row__icon" src={tableValue} alt="Table" />
+          <div className="value-row__body">
+            <h3 className="value-row__title">As Family (Table)</h3>
+            <p className="value-row__lead">
+              You don’t have to have it all together to belong.
+            </p>
+          </div>
+          <p className="value-row__detail">
+            <em>
+              We share meals, stories, and everyday life—building a community
+              where people are known, supported, and can grow at their own
+              pace.
+            </em>
+          </p>
+        </div>
+
+        <div className="value-row">
+          <img className="value-row__icon" src={pathValue} alt="Path" />
+          <div className="value-row__body">
+            <h3 className="value-row__title">For the Forest and Beyond (Path)</h3>
+            <p className="value-row__lead">Faith isn&apos;t just for Sundays</p>
+          </div>
+          <p className="value-row__detail">
+            <em>
+              We’re learning to live it out in real life—at home, at work,
+              wherever we are.
+              <br />
+              Bringing hope, kindness, and something different into the world
+              around us.
+            </em>
+          </p>
+        </div>
       </section>
 
       <section id="news" className="panel">
