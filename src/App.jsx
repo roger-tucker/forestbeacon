@@ -32,11 +32,11 @@ function App() {
           <div className="hero__headline">
             <h1 className="hero__title">Welcome to Forest Beacon</h1>
             <p className="hero__church">
-              The home of Ruardean Hill Baptist Church
+              (Ruardean Hill Baptist Church)
             </p>
           </div>
           <p className="hero__mission">
-            We are a simple church community, rooted in faith and village life
+            We are a small rural church, committed to loving and serving our local community
           </p>
         </div>
       </section>
@@ -107,7 +107,7 @@ function App() {
         <p className="home-content__text">
           We pray online weekday mornings at 8am for half an hour, and in the
           evening on the second Thursday of the month. If you&apos;d like to
-          join us please contact us for details.
+          join us please contact us for details. <br /><br />
         </p>
 
         <h2 className="section-heading">Values</h2>
