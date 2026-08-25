@@ -306,12 +306,6 @@
   border-top: 1px solid #e8e3db;
 }
 
-.panel h2 {
-  margin: 0 0 0.5rem;
-  color: #183126;
-}
-
-.panel p {
-  margin: 0;
-  color: #4b5f56;
+.panel .section-heading {
+  margin-top: 0;
 }

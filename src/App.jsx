@@ -1,8 +1,8 @@
 import './App.css'
 import forestWalk from './assets/images/forest walk.JPG'
-import chayah from './assets/images/Chayah.jpeg'
+import toddlersRestart from './assets/images/toddlersRestart.jpg'
 import forestChurchBeacon from './assets/images/Forest-church-beacon.png'
-import toddlerGroup from './assets/images/toddler1ac.JPG'
+import toddlerGroup from './assets/images/toddlers1c.jpeg'
 import growingTogether from './assets/images/sundayz.JPG'
 import fireValue from './assets/images/fire.jpg'
 import tableValue from './assets/images/table.jpg'
@@ -46,8 +46,8 @@ function App() {
         <div className="coming-up__image-wrap">
           <img
             className="coming-up__image"
-            src={chayah}
-            alt="Chayah event"
+            src={toddlersRestart}
+            alt="Toddlers restarts 4th Sept"
           />
         </div>
       </section>
@@ -110,6 +110,22 @@ function App() {
           join us please contact us for details. <br /><br />
         </p>
 
+        <section id="news" className="panel">
+        <h2 className="section-heading">News</h2>
+        <p className="home-content__text">Toddlers Restarts 4th September.</p>
+        <p className="home-content__text">
+          Next service 6th September - we have Tim Welch from the YMCA joining
+          us.
+        </p>
+      </section>
+
+      <section id="contact" className="panel">
+        <h2 className="section-heading">Contact</h2>
+        <p className="home-content__text">email: enquiries@forestbeacon.org</p>
+        <p className="home-content__text">
+          phone: 07714 349210 (please leave message)
+        </p>
+      </section>
         <h2 className="section-heading">Values</h2>
         <p className="section-subheading">
           With God. As family. For the Forest and beyond.
@@ -169,15 +185,7 @@ function App() {
         </div>
       </section>
 
-      <section id="news" className="panel">
-        <h2>News</h2>
-        <p>Placeholder area for updates, events, and stories.</p>
-      </section>
-
-      <section id="contact" className="panel">
-        <h2>Contact</h2>
-        <p>Placeholder area for contact details and a future form.</p>
-      </section>
+      
     </div>
   )
 }
