@@ -47,7 +47,7 @@ function App() {
           <img
             className="coming-up__image"
             src={toddlersRestart}
-            alt="Toddlers restarts 4th Sept"
+            alt="Toddlers restarts 8th Sept"
           />
         </div>
       </section>
@@ -79,8 +79,7 @@ function App() {
 
         <h2 className="section-heading">Forest Beacon Sparks</h2>
         <p className="home-content__text">
-          Our toddler group meets on a Tuesday morning every week from 9:30 -
-          11:00 AM.
+          Our toddler group meets on a Tuesday morning from 9:30-11:00 AM during the school term.
         </p>
         <img
           className="content-image"
@@ -112,7 +111,7 @@ function App() {
 
         <section id="news" className="panel">
         <h2 className="section-heading">News</h2>
-        <p className="home-content__text">Toddlers Restarts 4th September.</p>
+        <p className="home-content__text">Toddlers restarts 8th September.</p>
         <p className="home-content__text">
           Next service 6th September - we have Tim Welch from the YMCA joining
           us.
