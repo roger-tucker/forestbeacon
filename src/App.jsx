@@ -1,7 +1,7 @@
 import './App.css'
 import forestWalk from './assets/images/forest walk 80.JPG'
-import toddlersRestart from './assets/images/toddlersRestart.jpg'
 import forestChurchBeacon from './assets/images/Forest-church-beacon.jpg'
+import praisePrayer from './assets/images/praise-prayer.jpeg'
 import toddlerGroup from './assets/images/toddlers1c.jpeg'
 import growingTogether from './assets/images/sundayz 80.JPG'
 import fireValue from './assets/images/fire.jpg'
@@ -46,25 +46,14 @@ function App() {
         <div className="coming-up__image-wrap">
           <img
             className="coming-up__image"
-            src={toddlersRestart}
-            alt="Toddlers restarts 8th Sept"
+            src={praisePrayer}
+            alt="Praise & Prayer 7.30pm 16th Oct"
           />
         </div>
       </section>
 
       <section className="home-content" aria-label="About Forest Beacon">
         <h2 className="section-heading">Our Special Place</h2>
-        <p className="home-content__text">
-          Our building is situated adjacent to the forest, and is just down the
-          road from the Beacon which is lit on special occasions, so we take
-          inspiration from the beauty of our setting and Jesus the light of all
-          mankind to call ourselves &apos;Forest Beacon&apos;
-        </p>
-        <img
-          className="content-image"
-          src={forestChurchBeacon}
-          alt="Forest, church and beacon"
-        />
         <p className="home-content__text">
           Click{' '}
           <a
@@ -76,6 +65,17 @@ function App() {
           </a>{' '}
           to find us on Google Maps or What3Words /// being.broadcast.nurture
         </p>
+        <p className="home-content__text">
+          Our building is situated adjacent to the forest, and is just down the
+          road from the Beacon which is lit on special occasions, so we take
+          inspiration from the beauty of our setting and Jesus the light of all
+          mankind to call ourselves &apos;Forest Beacon&apos;
+        </p>
+        <img
+          className="content-image"
+          src={forestChurchBeacon}
+          alt="Forest, church and beacon"
+        />
 
         <h2 className="section-heading">Forest Beacon Sparks</h2>
         <p className="home-content__text">
@@ -111,10 +111,14 @@ function App() {
 
         <section id="news" className="panel">
         <h2 className="section-heading">News</h2>
-        <p className="home-content__text">Toddlers restarts 8th September.</p>
         <p className="home-content__text">
-          Next service 6th September - we have Tim Welch from the YMCA joining
-          us.
+          10:30am services this autumn: 4th Oct, 1st Nov, 6th Dec.
+        </p>
+        <p className="home-content__text">
+          4pm services this autumn: 20th Sept, 18th Oct, 15th Nov.
+        </p>
+        <p className="home-content__text">
+          On 16th October we meet at 7.30pm for Worship and will then take our 8-9pm slot in the 24 hour Pray for the Forest.
         </p>
       </section>
 
