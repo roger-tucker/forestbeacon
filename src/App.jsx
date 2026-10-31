@@ -1,7 +1,7 @@
 import './App.css'
 import forestWalk from './assets/images/forest walk 80.JPG'
 import forestChurchBeacon from './assets/images/Forest-church-beacon.jpg'
-import praisePrayer from './assets/images/praise-prayer.jpeg'
+import comingUp from './assets/images/wit-helen.jpg'
 import toddlerGroup from './assets/images/toddlers1c.jpeg'
 import growingTogether from './assets/images/sundayz 80.JPG'
 import fireValue from './assets/images/fire.jpg'
@@ -46,7 +46,7 @@ function App() {
         <div className="coming-up__image-wrap">
           <img
             className="coming-up__image"
-            src={praisePrayer}
+            src={comingUp}
             alt="Praise & Prayer 7.30pm 16th Oct"
           />
         </div>
